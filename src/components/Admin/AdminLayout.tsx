@@ -25,7 +25,7 @@ export const AdminLayout: React.FC = () => {
     { icon: LayoutDashboard, label: 'Dashboard', path: '/admin' },
     { icon: ClipboardList, label: 'Orders', path: '/admin/orders' },
     { icon: UtensilsCrossed, label: 'Menu Items', path: '/admin/menu' },
-    { icon: Users, label: 'Staff / Tables', path: '/admin/staff' },
+    { icon: Users, label: 'Staff / Tables', path: '/admin/tables' },
   ];
 
   return (

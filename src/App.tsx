@@ -3,12 +3,12 @@ import { Routes, Route, Navigate } from 'react-router-dom';
 import { MenuPage } from './pages/MenuPage';
 import { CartPage } from './pages/CartPage';
 import { OrderSuccess } from './pages/OrderSuccess';
-import { AdminLayout } from './components/Admin/AdminLayout';
 import { AdminLogin } from './pages/Admin/AdminLogin';
 import { OrderList } from './pages/Admin/OrderList';
 import { MenuManager } from './pages/Admin/MenuManager';
 import { TableQR } from './pages/Admin/TableQR';
 import { ProtectedRoute } from './components/ProtectedRoute';
+import { AdminLayout } from './components/Admin/AdminLayout';
 
 const App: React.FC = () => {
   return (
