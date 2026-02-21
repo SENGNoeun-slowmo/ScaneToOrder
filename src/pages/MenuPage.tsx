@@ -150,3 +150,4 @@ export const MenuPage: React.FC = () => {
     </div>
   );
 };
+
