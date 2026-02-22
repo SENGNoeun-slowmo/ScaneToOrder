@@ -36,7 +36,7 @@ export const AdminLayout: React.FC = () => {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
               <ChefHat className="h-8 w-8 text-orange-500" />
-              <span className="ml-2 text-xl font-bold text-gray-900">Admin Panel</span>
+              <span className="ml-2 text-xl font-bold text-gray-900">Admin ScaneToCey</span>
             </div>
             <button
               onClick={() => setIsSidebarOpen(!isSidebarOpen)}
