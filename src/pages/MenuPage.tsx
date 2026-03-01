@@ -47,7 +47,7 @@ export const MenuPage: React.FC = () => {
         <div className="max-w-3xl mx-auto px-4 py-4 flex justify-between items-center">
           <div className="flex items-center space-x-2">
             <UtensilsCrossed className="w-6 h-6 text-orange-500" />
-            <h1 className="text-xl font-bold text-gray-900">ScaneToCey Menu</h1>
+            <h1 className="text-xl font-bold text-gray-900">Scan To Order  Menu</h1>
           </div>
           <div className="text-sm text-gray-500">
             Table {tableId ? tableId.slice(0,4) : 'Unknown'}
